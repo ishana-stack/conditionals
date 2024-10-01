@@ -1,0 +1,4 @@
+num=-19
+if num>0:
+    print("it's a positive num")
+    
