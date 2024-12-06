@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPHB8ZZbzr9swqlAp3TAx0Y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/counting%20number%20of%20characters\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UUjBAh6G60Pa",
+        "outputId": "bfefe08e-cf2a-4d36-9d11-747be838b51d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a small sentencepytrhon is a snake\n",
+            "enter a character you want to know the occurance ofp\n",
+            "1\n"
+          ]
+        }
+      ],
+      "source": [
+        "sentence=input(\"enter a small sentence\")\n",
+        "character=input(\"enter a character you want to know the occurance of\")\n",
+        "count=0\n",
+        "for c in sentence:\n",
+        "  if character==c:\n",
+        "    count=count+1\n",
+        "print(count)\n"
+      ]
+    }
+  ]
+}
