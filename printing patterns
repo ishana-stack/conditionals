@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOHUbc6ztgO5PTbmmhKljRP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/printing%20patterns\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P-AUtHJzg9gz",
+        "outputId": "0ab01284-91e2-4a14-c3f4-00b42e32a057"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the maximum number of lines5\n",
+            "*\n",
+            "**\n",
+            "***\n",
+            "****\n",
+            "*****\n"
+          ]
+        }
+      ],
+      "source": [
+        "num=int(input(\"enter the maximum number of lines\"))\n",
+        "for i in range(1,num+1):\n",
+        "  for j in range(1,i+1):\n",
+        "    print(\"*\",end=\"\")\n",
+        "  print()\n"
+      ]
+    }
+  ]
+}
