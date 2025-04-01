@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN4WsgI9oM3Ak3NmH9NRu1I",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/age%20exception\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XXfo9Z0nb_v7",
+        "outputId": "ce8511d3-e0f6-48c5-a070-29a5b5ae7cb5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age:12.567\n",
+            "an error has occured\n",
+            "this is finally over\n"
+          ]
+        }
+      ],
+      "source": [
+        "try:\n",
+        "  age=int(input(\"enter your age:\"))\n",
+        "  if age%2==0:\n",
+        "    print(\"the age is even\")\n",
+        "  else:\n",
+        "    print(\"the age is odd\")\n",
+        "except:\n",
+        "  print(\"an error has occured\")\n",
+        "finally:\n",
+        "  print(\"this is finally over\")"
+      ]
+    }
+  ]
+}
