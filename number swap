@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPeIo81XIRqoswBbBeP4GTI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/number%20swap\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wKXSE6uoti9X",
+        "outputId": "24b65922-a0d0-4d98-b808-4255306db33b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a=15,b=20,c=10\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=10\n",
+        "b=15\n",
+        "c=20\n",
+        "temp=0\n",
+        "temp=a\n",
+        "a=b\n",
+        "b=c\n",
+        "c=temp\n",
+        "print(f\"a={a},b={b},c={c}\")"
+      ]
+    }
+  ]
+}
