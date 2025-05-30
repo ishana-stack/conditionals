@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOpi8jiSxU+Kbll2FyEKEQt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/bmw%20and%20ferrari\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "c-svWwgTT3iD"
+      },
+      "outputs": [],
+      "source": [
+        "class vehicle():\n",
+        "  def__init__(self,speed,colour,ac):\n",
+        "    self.speed=speed\n",
+        "    self.colour=colour\n",
+        "    self.ac=ac\n",
+        "class bmw(vehicle):\n",
+        "  def__init__(self,speed,colour,superac,style):\n",
+        "    pass\n",
+        "    self.superac=superac\n",
+        "    self.style=style\n",
+        "bmw=(280,red,10,french)\n",
+        "obj1=(\"the speedof bmw is\",self.speed,\"the colour of bmw is\",self.colour,\"the lowest ac temp is\",self.superac,\"and the style of the bmw is\",self.style)\n",
+        "print(obj1)\n",
+        "class ferrari(vehicle):\n",
+        "  def__init__(self,speed,colour,superac,style)\n",
+        "  pass\n",
+        "  self.superac=superac\n",
+        "  self.style=style\n",
+        "frrari=(280,red,5,indian)\n",
+        "obj2=(\"the speed of ferrari is\",self.speed,\"the colour of ferrari is\",self.colour,\"the lowest ac temp is\",self.superac,\"and the style of ferrari is\",self.style)\n",
+        "print(obj2)\n"
+      ]
+    }
+  ]
+}
