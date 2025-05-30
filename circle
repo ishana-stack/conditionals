@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPW2rZyqzkcq5fLpw0wAKH3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/circle\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yVl9lJ95LnMW"
+      },
+      "outputs": [],
+      "source": [
+        "class circle:\n",
+        "  def__init__(self,radius):\n",
+        "    self.radius=radius\n",
+        "    radius =int(input(\"enter the radius of the circle\"))\n",
+        "obj1=(\"the circumference of the circle is\",2*3.14*radius)\n",
+        "obj2=(\"the area of the circle is\",3.14*radius**2)\n",
+        "print(obj1)\n",
+        "print(obj2)"
+      ]
+    }
+  ]
+}
