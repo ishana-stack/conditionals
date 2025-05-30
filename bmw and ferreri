@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOpi8jiSxU+Kbll2FyEKEQt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ishana-stack/conditionals/blob/main/bmw%20and%20ferreri\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "c-svWwgTT3iD",
+        "outputId": "8b43615a-344a-4cf4-e115-bb1c82e15478"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (<ipython-input-1-5352f567cdf0>, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-5352f567cdf0>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    def__init__(self,speed,colour,ac):\u001b[0m\n\u001b[0m                                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "class vehicle():\n",
+        "  def__init__(self,speed,colour,ac):\n",
+        "    self.speed=speed\n",
+        "    self.colour=colour\n",
+        "    self.ac=ac\n",
+        "class bmw(vehicle):\n",
+        "  def__init__(self,speed,colour,superac,style):\n",
+        "    pass\n",
+        "    self.superac=superac\n",
+        "    self.style=style\n",
+        "bmw=(280,red,10,french)\n",
+        "obj1=(\"the speedof bmw is\",self.speed,\"the colour of bmw is\",self.colour,\"the lowest ac temp is\",self.superac,\"and the style of the bmw is\",self.style)\n",
+        "print(obj1)\n",
+        "class ferrari(vehicle):\n",
+        "  def__init__(self,speed,colour,superac,style)\n",
+        "  pass\n",
+        "  self.superac=superac\n",
+        "  self.style=style\n",
+        "frrari=(280,red,5,indian)\n",
+        "obj2=(\"the speed of ferrari is\",self.speed,\"the colour of ferrari is\",self.colour,\"the lowest ac temp is\",self.superac,\"and the style of ferrari is\",self.style)\n",
+        "print(obj2)\n"
+      ]
+    }
+  ]
+}
